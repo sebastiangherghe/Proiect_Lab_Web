@@ -1,0 +1,98 @@
+    .header_style {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p {
+        font-size:180% ;
+        font-style: italic;
+    }
+    .logo {
+        width:100px;
+        height:100px;
+    }
+    .img1 {
+        width:400px;
+        height:400px;
+
+    }
+
+    .img2 {
+        width:400px;
+        height:400px;
+
+    }
+
+    body {
+        background: url(https://cdn.hipwallpaper.com/i/82/88/qetElJ.jpg);
+        background-repeat: round;
+        background-attachment: fixed;
+        background-position:center;
+        background-size: cover;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        top: 0;
+        width: 100%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color:#111;
+      }
+      
+      .active {
+        background-color:rgb(201, 47, 47);
+      }
+
+      
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-left {
+    width: 50%;
+    height: 100vh;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .flex-right {
+    width: 50%;
+    margin: 20px;
+    padding: 5px;
+  }
+ 
+      
+
+  @media (max-width:768px) {
+    p, .img1, .img2{
+        width:60%;
+    }
+  }
+  @media (min-width:1280px) {
+    p, .img1, .img2{
+        width:30%;
+    }
+  }
+  @media (max-width:1280px) and (min-width:768px) {
+    p, .img1, .img2 {
+        width:50%;
+      
+    }
+  }
